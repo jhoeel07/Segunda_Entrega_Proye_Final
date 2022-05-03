@@ -110,6 +110,19 @@ h1{
 
     background: chartreuse;
 }
+
+/*ESPACIOS ENTRE LAS FILAS DE LA PARETE DE SNAKERS YEZZE DRAGON BALL*/
+
+.row-yeze-3{
+
+    margin-top: 10px;
+  
+}
+
+
+
+
+
 /*----------------------- FIN BOOTSTRAP------------------------- */
 
 
@@ -305,7 +318,24 @@ h1{
 }
 
 
+/* ------------------------------GIF del fondoooooooo especial------------------------ */
 
+
+.fondo_colores_trasnision{
+
+    width: 100%;
+
+    background-image: url("../imag/gif/estrellas-entre-las-nubes.gif");
+  background-size: cover;
+
+}
+.fondo_colores_trasnision .container{
+
+    padding: 30px;
+
+
+
+}
 
 
 
@@ -383,6 +413,10 @@ h1{
     font-weight: bold;
  
 }
+
+
+
+
 
 
 /* -------------------------------------media queris--------------------------------------------------------- */
@@ -706,6 +740,15 @@ h1{
         
     }
 
+    .row-yeze-2 img{
+        transition: all 0.5s ease-in-out;
+
+    }
+    .row-yeze-3 img{
+
+        transition: all 0.5s ease-in-out;
+    }
+
       /*----------------------------- animacionnn--------------------- */
       .logo2{
 
@@ -763,7 +806,17 @@ h1{
         transform: scale(1.1);
 
     }
+    .row-yeze-3 img:hover{
 
+        border-color: chartreuse;
+        transform: scale(1.1);
+    }
+
+    .row-yeze-2 img:hover{
+        border-color: chartreuse;
+        transform: scale(1.1);
+    
+    }
 
     /*------------------------------ PAGINA AYUDAAA----------------------------- */
 
