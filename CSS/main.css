@@ -66,12 +66,18 @@ h1{
     font-size: larger;
     color: rgb(236, 214, 185);
     text-align: center;
+ 
 
 
 }
+
+
+
+
 /*--------estilos de mi segundo menu-----------*/
 
 .segundo_menu{
+
 
     grid-area: segundo_menu;
     background-attachment: fixed;
@@ -84,6 +90,12 @@ h1{
   
     color: rgb(0, 0, 0);
     font-weight: bold;
+    position: relative;
+}
+.VOLVER{
+
+    display: none;
+
 }
 
 .segundo_menu img{
@@ -104,6 +116,7 @@ h1{
 
 
 } 
+
 /*----------------------- BOOTSTRAP------------------------- */
 
 .accordion-button {
@@ -369,6 +382,7 @@ h1{
     border: solid black 5px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    z-index: 20;
  
 }
 
@@ -399,19 +413,33 @@ h1{
     height: auto;
     border-radius: 10px;
     border: solid black 5px;
+    z-index: 20;
 
 }
 
 
 /*-----------------parte de la Pagina de la info-------------------*/
 .textoAYUDA{
-    background-color: aliceblue;
-    color: #000;
+    
+
+    color: rgb(255, 255, 255);
 
     font-size: 25px;
  
     font-weight: bold;
  
+}
+.texto_info{
+
+    background-color: #000;
+}
+.listaPuestosDisp {
+
+   list-style: none;
+}
+.trabaja_con_nosotros{
+    margin-top: 20px;
+    background-image: url("../imag/gif/cielo-estrellado.gif");
 }
 
 
@@ -482,7 +510,7 @@ h1{
 
     }
 
-
+ /*---------------- segundo menu modo tableeet-------------------- */
     .segundo_menu{
 
         flex-direction: column;
@@ -497,27 +525,33 @@ h1{
 
     }
 
+    .VOLVER{
+
+        display: block;
+    
+    }
 
     .segundo_menu h3{
 
         font-size: 50px;
 
     }
+    .VOLVER{
 
+        position: fixed;
+        z-index: 1;
+        
+    }
+    .segundo_menu button{
+        
+        z-index: 10;
+        
+    }
+    .segundo_menu h3{
+        margin-top: 20px;
+       
+    }
 
-/* 
-    button{
-
-        background: rgb(0,0,0);
-        background: radial-gradient(circle, rgba(0,0,0,1) 4%, rgba(41,47,47,1) 100%);
-       color: bisque;
-       border-radius: 0;
-       font-size: 20px;
-        height: 25px;
-        width: 100%;
-    
-    
-    } */
 
     .mas_vendidos_fotos{
 
@@ -542,7 +576,7 @@ h1{
 
 
 
-/* ACA VA LA PARTE DE LA COMPU QUE VA ATENER UN LOGO EN EL HEAD */
+/* --------------------ACA VA LA PARTE DE LA COMPU QUE VA ATENER UN LOGO EN EL HEAD---------------------- */
 
 @media screen and (min-width:1024px) {
 
@@ -609,15 +643,6 @@ h1{
 
 
     /*--------------estilo a la seccion Sneakers-------------*/
-
-    
-
-    /* .sneakers img{
-
-        width:360px;
-        height:460px;
-    } */
-
 
 
 
